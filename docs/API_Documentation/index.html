@@ -1,0 +1,644 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>API Documentation · Linkkey Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assets/css/websiteStyle.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../AboutSNS/registerTutorial.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    
+        <link rel="shortcut icon" href='../assets/img/favicon.ico' type="image/x-icon">
+    
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Welcome to Linkkey DAO</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Technical Documentation</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">About SNS-APP</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../AboutSNS/registerTutorial.html">
+            
+                <a href="../AboutSNS/registerTutorial.html">
+            
+                    
+                    Registration Tutorial
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../AboutSNS/FAQ.html">
+            
+                <a href="../AboutSNS/FAQ.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >API Documentation</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#reusable-functions-and-components-for-the-sns-apps"><b></b>Reusable functions and components for the SNS apps</a></li><ul><li><span class="title-icon "></span><a href="#contracts"><b></b>Contracts</a></li><ul><li><span class="title-icon "></span><a href="#registry"><b></b>Registry</a></li><li><span class="title-icon "></span><a href="#resolvers"><b></b>Resolvers</a></li><li><span class="title-icon "></span><a href="#withdraw"><b></b>Withdraw</a></li></ul><li><span class="title-icon "></span><a href="#start"><b></b>Start</a></li><ul><li><span class="title-icon "></span><a href="#setup"><b></b>setup</a></li></ul><li><span class="title-icon "></span><a href="#setup_1"><b></b>setup</a></li><li><span class="title-icon "></span><a href="#async-function-setupsnsoptionsvoid"><b></b>async function setupSNS(options):void</a></li><ul><li><span class="title-icon "></span><a href="#arguments"><b></b>Arguments</a></li><li><span class="title-icon "></span><a href="#example"><b></b>Example</a></li></ul><li><span class="title-icon "></span><a href="#registry-api"><b></b> Registry API</a></li><ul><li><span class="title-icon "></span><a href="#registry_1"><b></b>registry()</a></li><li><span class="title-icon "></span><a href="#transfer"><b></b>transfer()</a></li><li><span class="title-icon "></span><a href="#getnameofowner"><b></b>getNameOfOwner()</a></li><li><span class="title-icon "></span><a href="#getresolveraddress"><b></b>getResolverAddress()</a></li><li><span class="title-icon "></span><a href="#getresolverowner"><b></b>getResolverOwner()</a></li><li><span class="title-icon "></span><a href="#gettokenidofname"><b></b>getTokenIdOfName()</a></li><li><span class="title-icon "></span><a href="#recordexists"><b></b>recordExists()</a></li><li><span class="title-icon "></span><a href="#getdomaindetails"><b></b>getDomainDetails()</a></li><li><span class="title-icon "></span><a href="#getregisteredprice"><b></b>getRegisteredPrice()</a></li><li><span class="title-icon "></span><a href="#async-function-registryname"><b></b>async function registry(name)</a></li><li><span class="title-icon "></span><a href="#async-function-transferaddress-name"><b></b>async function transfer(address, name)</a></li><li><span class="title-icon "></span><a href="#async-function-getnameofowneraddress"><b></b>async function getNameOfOwner(address)</a></li><li><span class="title-icon "></span><a href="#async-function-getresolveraddressname"><b></b>async function getResolverAddress(name)</a></li><li><span class="title-icon "></span><a href="#async-function-getresolverowner"><b></b>async function getResolverOwner</a></li><li><span class="title-icon "></span><a href="#async-function-gettokenidofname"><b></b>async function getTokenIdOfName</a></li><li><span class="title-icon "></span><a href="#async-function-recordexists"><b></b>async function recordExists</a></li><li><span class="title-icon "></span><a href="#async-function-getdomaindetails"><b></b>async function getDomainDetails</a></li><li><span class="title-icon "></span><a href="#async-function-getregisteredprice"><b></b>async function getRegisteredPrice</a></li></ul><li><span class="title-icon "></span><a href="#resolvers-api"><b></b> Resolvers API</a></li><ul><li><span class="title-icon "></span><a href="#getallproperties"><b></b>getAllProperties()</a></li><li><span class="title-icon "></span><a href="#setallproperties"><b></b>setAllProperties()</a></li><li><span class="title-icon "></span><a href="#async-function-getallproperties"><b></b>async function getAllProperties</a></li><li><span class="title-icon "></span><a href="#async-function-setallproperties"><b></b>async function setAllProperties</a></li></ul><li><span class="title-icon "></span><a href="#withdraw-api"><b></b> Withdraw API</a></li><ul><li><span class="title-icon "></span><a href="#getfeevalue"><b></b>getFeeValue()</a></li><li><span class="title-icon "></span><a href="#withdraw_1"><b></b>withdraw()</a></li><li><span class="title-icon "></span><a href="#async-function-getfeevalue"><b></b>async function getFeeValue</a></li><li><span class="title-icon "></span><a href="#async-function-withdraw"><b></b>async function withdraw</a></li></ul><li><span class="title-icon "></span><a href="#transaction-response"><b></b>Transaction Response</a></li></ul></ul></div><a href="#reusable-functions-and-components-for-the-sns-apps" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="reusable-functions-and-components-for-the-sns-apps"><a name="reusable-functions-and-components-for-the-sns-apps" class="anchor-navigation-ex-anchor" href="#reusable-functions-and-components-for-the-sns-apps"><i class="fa fa-link" aria-hidden="true"></i></a>Reusable functions and components for the SNS apps</h1>
+<p>Most functions in this library are async functions and therefore return promises which can be awaited or chained with <code>.then</code>.</p>
+<h2 id="contracts"><a name="contracts" class="anchor-navigation-ex-anchor" href="#contracts"><i class="fa fa-link" aria-hidden="true"></i></a>Contracts</h2>
+<ul>
+<li><h3 id="registry"><a name="registry" class="anchor-navigation-ex-anchor" href="#registry"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#Registry">Registry</a></h3>
+</li>
+<li><h3 id="resolvers"><a name="resolvers" class="anchor-navigation-ex-anchor" href="#resolvers"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#Resolvers">Resolvers</a></h3>
+</li>
+<li><h3 id="withdraw"><a name="withdraw" class="anchor-navigation-ex-anchor" href="#withdraw"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#Withdraw">Withdraw</a></h3>
+</li>
+</ul>
+<h2 id="start"><a name="start" class="anchor-navigation-ex-anchor" href="#start"><i class="fa fa-link" aria-hidden="true"></i></a>Start</h2>
+<hr>
+<ul>
+<li><h3 id="setup"><a name="setup" class="anchor-navigation-ex-anchor" href="#setup"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#setup">setup</a></h3>
+</li>
+</ul>
+<h2 id="setup_1"><a name="setup_1" class="anchor-navigation-ex-anchor" href="#setup_1"><i class="fa fa-link" aria-hidden="true"></i></a><span id="setup"><code>setup</code></span></h2>
+<p> It can optionally provide a customProvider and an SNS address. In general, you don&apos;t need this unless you are running ganache.</p>
+<p>It will return an object containing a registrar, sns object, network, provider object, and tithe contract object. sns object will handle name resolution, reverse logging, and handle the registry. The registrar object has the ability to interact with permanent registrars, traditional auction registrars and test registrars (just on the test network).</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { setupSNS } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;sns-app-contract-api&apos;</span>
+
+<span class="hljs-built_in">window</span>.addEventListener(<span class="hljs-string">&apos;load&apos;</span>, <span class="hljs-keyword">async</span> () =&gt; {
+  <span class="hljs-keyword">const</span> { registrar, sns } = <span class="hljs-keyword">await</span> setupSNS()
+  <span class="hljs-keyword">const</span> owner = <span class="hljs-keyword">await</span> sns.getOwner(<span class="hljs-string">&apos;linkkeydao.key&apos;</span>)
+  <span class="hljs-comment">// will instantiate with window.web3/window.ethereum if found, read-only if not.</span>
+  <span class="hljs-comment">// Once setup has finished you can now call functions off the library</span>
+})
+</code></pre>
+<h2 id="async-function-setupsnsoptionsvoid"><a name="async-function-setupsnsoptionsvoid" class="anchor-navigation-ex-anchor" href="#async-function-setupsnsoptionsvoid"><i class="fa fa-link" aria-hidden="true"></i></a><code>async function setupSNS(options):void</code></h2>
+<p>setupSNS must be called before anything other function in this library. We recommend calling it in a window.load event to make sure that your web3 object has loaded. You can provide a custom provider yourself, but by default it will look for <code>window.web3</code> or<code>window.ethereum</code> if you do not give it a provider. We use the custom provider when we need to run automated tests with ganache. You can also it pass it the registry address, but by default it will derive the network you are on and instantiate SNS using that network&apos;s registry. You only need to provider it with an sns address if you are on a private network.</p>
+<h3 id="arguments"><a name="arguments" class="anchor-navigation-ex-anchor" href="#arguments"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h3>
+<pre><code> options (object): {
+  customProvider (object): Provider object from web3 (optional)
+  snsAddress (String): Address of the SNS registry (optional)
+}
+</code></pre><h3 id="example"><a name="example" class="anchor-navigation-ex-anchor" href="#example"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { setupSNS } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;sns-app-contract-api&apos;</span>
+<span class="hljs-built_in">window</span>.addEventListener(<span class="hljs-string">&apos;load&apos;</span>, <span class="hljs-keyword">async</span> () =&gt; {
+  <span class="hljs-keyword">const</span> { sns, snsWithdraw, snsResolver, provider,network,providerObject } = <span class="hljs-keyword">await</span> setupSNS()
+})
+</code></pre>
+<h2 id="registry-api"><a name="registry-api" class="anchor-navigation-ex-anchor" href="#registry-api"><i class="fa fa-link" aria-hidden="true"></i></a><span id="Registry"> Registry API</span></h2>
+<hr>
+<ul>
+<li><h3 id="registry_1"><a name="registry_1" class="anchor-navigation-ex-anchor" href="#registry_1"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-registry-name">registry()</a></h3>
+</li>
+<li><h3 id="transfer"><a name="transfer" class="anchor-navigation-ex-anchor" href="#transfer"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-transfer-addressAndName">transfer()</a></h3>
+</li>
+<li><h3 id="getnameofowner"><a name="getnameofowner" class="anchor-navigation-ex-anchor" href="#getnameofowner"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-getNameOfOwner-address">getNameOfOwner()</a></h3>
+</li>
+<li><h3 id="getresolveraddress"><a name="getresolveraddress" class="anchor-navigation-ex-anchor" href="#getresolveraddress"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-getResolver-addressName">getResolverAddress()</a></h3>
+</li>
+<li><h3 id="getresolverowner"><a name="getresolverowner" class="anchor-navigation-ex-anchor" href="#getresolverowner"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-getResolverOwner-name">getResolverOwner()</a></h3>
+</li>
+<li><h3 id="gettokenidofname"><a name="gettokenidofname" class="anchor-navigation-ex-anchor" href="#gettokenidofname"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-getTokenIdOfName-name">getTokenIdOfName()</a></h3>
+</li>
+<li><h3 id="recordexists"><a name="recordexists" class="anchor-navigation-ex-anchor" href="#recordexists"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-recordExists-name">recordExists()</a></h3>
+</li>
+<li><h3 id="getdomaindetails"><a name="getdomaindetails" class="anchor-navigation-ex-anchor" href="#getdomaindetails"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-getDomainDetails-name">getDomainDetails()</a></h3>
+</li>
+<li><h3 id="getregisteredprice"><a name="getregisteredprice" class="anchor-navigation-ex-anchor" href="#getregisteredprice"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-Registry-getRegisteredPrice">getRegisteredPrice()</a></h3>
+</li>
+</ul>
+<h3 id="async-function-registryname"><a name="async-function-registryname" class="anchor-navigation-ex-anchor" href="#async-function-registryname"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-registry-name"><code>async function registry(name)</code></span></h3>
+<p>This function is for a new domain name registration</p>
+<h4 id="arguments_1"><a name="arguments_1" class="anchor-navigation-ex-anchor" href="#arguments_1"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name:(string):Domain name to be registered
+</code></pre><h4 id="returns"><a name="returns" class="anchor-navigation-ex-anchor" href="#returns"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<h4 id="transactionmsgobject-transcation-response-object"><a name="transactionmsgobject-transcation-response-object" class="anchor-navigation-ex-anchor" href="#transactionmsgobject-transcation-response-object"><i class="fa fa-link" aria-hidden="true"></i></a>transactionMsg(object): <a href="#transaction-response-object">Transcation response object</a></h4>
+<h4 id="example_1"><a name="example_1" class="anchor-navigation-ex-anchor" href="#example_1"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> transactionObj = <span class="hljs-keyword">await</span> sns.registry(name)
+</code></pre>
+<h3 id="async-function-transferaddress-name"><a name="async-function-transferaddress-name" class="anchor-navigation-ex-anchor" href="#async-function-transferaddress-name"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-transfer-addressAndName"><code>async function transfer(address, name)</code></span></h3>
+<p>This function is used for transfers or transactions</p>
+<h4 id="arguments_2"><a name="arguments_2" class="anchor-navigation-ex-anchor" href="#arguments_2"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>address(string):Eth address of the owner on the registry
+name(string):An SNS name
+</code></pre><h4 id="returns_1"><a name="returns_1" class="anchor-navigation-ex-anchor" href="#returns_1"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<h4 id="transactionmsgobject-transcation-response-object_1"><a name="transactionmsgobject-transcation-response-object_1" class="anchor-navigation-ex-anchor" href="#transactionmsgobject-transcation-response-object_1"><i class="fa fa-link" aria-hidden="true"></i></a>transactionMsg(object): <a href="#transaction-response-object">Transcation response object</a></h4>
+<h4 id="example_2"><a name="example_2" class="anchor-navigation-ex-anchor" href="#example_2"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> address = <span class="hljs-string">&apos;0x123abc...&apos;</span>
+<span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> transactionObj = <span class="hljs-keyword">await</span> sns.transfer(address, name)
+</code></pre>
+<h3 id="async-function-getnameofowneraddress"><a name="async-function-getnameofowneraddress" class="anchor-navigation-ex-anchor" href="#async-function-getnameofowneraddress"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-getNameOfOwner-address"><code>async function getNameOfOwner(address)</code></span></h3>
+<p>Get the name of the owner</p>
+<h4 id="arguments_3"><a name="arguments_3" class="anchor-navigation-ex-anchor" href="#arguments_3"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>address(string):Eth address of the owner on the registry
+</code></pre><h4 id="returns_2"><a name="returns_2" class="anchor-navigation-ex-anchor" href="#returns_2"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>name(string):An SNS name
+</code></pre><h4 id="example_3"><a name="example_3" class="anchor-navigation-ex-anchor" href="#example_3"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-keyword">await</span> sns.getNameOfOwner(<span class="hljs-string">&apos;0x123abc...&apos;</span>)
+<span class="hljs-comment">// sns.key</span>
+</code></pre>
+<h3 id="async-function-getresolveraddressname"><a name="async-function-getresolveraddressname" class="anchor-navigation-ex-anchor" href="#async-function-getresolveraddressname"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-getResolver-addressName"><code>async function getResolverAddress(name)</code></span></h3>
+<p>Get the address of the parser</p>
+<h4 id="arguments_4"><a name="arguments_4" class="anchor-navigation-ex-anchor" href="#arguments_4"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name(string):An SNS name
+</code></pre><h4 id="returns_3"><a name="returns_3" class="anchor-navigation-ex-anchor" href="#returns_3"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>address(string):The resolver address
+</code></pre><h4 id="example_4"><a name="example_4" class="anchor-navigation-ex-anchor" href="#example_4"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> address = <span class="hljs-keyword">await</span> sns.getResolverAddress(name)
+<span class="hljs-comment">// 0x123abc...</span>
+</code></pre>
+<h3 id="async-function-getresolverowner"><a name="async-function-getresolverowner" class="anchor-navigation-ex-anchor" href="#async-function-getresolverowner"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-getResolverOwner-name"><code>async function getResolverOwner</code></span></h3>
+<p>Get the address of the owner of this resolver</p>
+<h4 id="arguments_5"><a name="arguments_5" class="anchor-navigation-ex-anchor" href="#arguments_5"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name(string):An SNS name
+</code></pre><h4 id="returns_4"><a name="returns_4" class="anchor-navigation-ex-anchor" href="#returns_4"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>address(string):An owner&apos;s resolver address
+</code></pre><h4 id="example_5"><a name="example_5" class="anchor-navigation-ex-anchor" href="#example_5"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> address = <span class="hljs-keyword">await</span> getResolverOwner(name)
+<span class="hljs-comment">// 0x123abc...</span>
+</code></pre>
+<h3 id="async-function-gettokenidofname"><a name="async-function-gettokenidofname" class="anchor-navigation-ex-anchor" href="#async-function-gettokenidofname"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-getTokenIdOfName-name"><code>async function getTokenIdOfName</code></span></h3>
+<p>Get the token ID for this name</p>
+<h4 id="arguments_6"><a name="arguments_6" class="anchor-navigation-ex-anchor" href="#arguments_6"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name(string):An SNS name
+</code></pre><h4 id="returns_5"><a name="returns_5" class="anchor-navigation-ex-anchor" href="#returns_5"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>tokenId(number):The token of the name
+</code></pre><h4 id="example_6"><a name="example_6" class="anchor-navigation-ex-anchor" href="#example_6"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> tokenId = <span class="hljs-keyword">await</span> sns.getTokenIdOfName(name)
+<span class="hljs-comment">// 1</span>
+</code></pre>
+<h3 id="async-function-recordexists"><a name="async-function-recordexists" class="anchor-navigation-ex-anchor" href="#async-function-recordexists"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-recordExists-name"><code>async function recordExists</code></span></h3>
+<p>Get whether the name record exists</p>
+<h4 id="arguments_7"><a name="arguments_7" class="anchor-navigation-ex-anchor" href="#arguments_7"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name(string):An SNS name
+</code></pre><h4 id="returns_6"><a name="returns_6" class="anchor-navigation-ex-anchor" href="#returns_6"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>isExists(boolean):Whether the name record exists
+</code></pre><h4 id="example_7"><a name="example_7" class="anchor-navigation-ex-anchor" href="#example_7"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> isExists = <span class="hljs-keyword">await</span> sns.recordExists(name)
+<span class="hljs-comment">// false/true</span>
+</code></pre>
+<h3 id="async-function-getdomaindetails"><a name="async-function-getdomaindetails" class="anchor-navigation-ex-anchor" href="#async-function-getdomaindetails"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-getDomainDetails-name"><code>async function getDomainDetails</code></span></h3>
+<p>Get some information about this domain</p>
+<h4 id="arguments_8"><a name="arguments_8" class="anchor-navigation-ex-anchor" href="#arguments_8"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name(string):An SNS name
+</code></pre><h4 id="returns_7"><a name="returns_7" class="anchor-navigation-ex-anchor" href="#returns_7"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code class="lang-js">domainDetailsObj:{
+    name: <span class="hljs-string">&quot;test1.key&quot;</span>, <span class="hljs-comment">// An SNS name</span>
+    label: <span class="hljs-string">&quot;test1&quot;</span>, <span class="hljs-comment">// An SNS name(remove suffix)</span>
+    labelhash: <span class="hljs-string">&quot;0xc318..&quot;</span>, <span class="hljs-comment">// A hash value of an SNS name</span>
+    owner: <span class="hljs-string">&quot;0x9cc..&quot;</span>, <span class="hljs-comment">// Address of owner</span>
+    resolver: <span class="hljs-string">&quot;0xB20..&quot;</span>, <span class="hljs-comment">// The resolver address</span>
+    addr: <span class="hljs-literal">null</span>, <span class="hljs-comment">// custom address</span>
+    content: <span class="hljs-literal">null</span> <span class="hljs-comment">// custom content</span>
+}
+</code></pre>
+<h4 id="example_8"><a name="example_8" class="anchor-navigation-ex-anchor" href="#example_8"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> detailsObj = <span class="hljs-keyword">await</span> sns.getDomainDetails(name)
+</code></pre>
+<h3 id="async-function-getregisteredprice"><a name="async-function-getregisteredprice" class="anchor-navigation-ex-anchor" href="#async-function-getregisteredprice"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-Registry-getRegisteredPrice"><code>async function getRegisteredPrice</code></span></h3>
+<p>Get Registration Price</p>
+<h4 id="returns_8"><a name="returns_8" class="anchor-navigation-ex-anchor" href="#returns_8"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>price(number):Registration Fee
+</code></pre><h4 id="example_9"><a name="example_9" class="anchor-navigation-ex-anchor" href="#example_9"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> price = <span class="hljs-keyword">await</span> sns.getRegisteredPrice()
+<span class="hljs-comment">// 10</span>
+</code></pre>
+<h2 id="resolvers-api"><a name="resolvers-api" class="anchor-navigation-ex-anchor" href="#resolvers-api"><i class="fa fa-link" aria-hidden="true"></i></a><span id="Resolvers"> Resolvers API</span></h2>
+<hr>
+<h3 id="getallproperties"><a name="getallproperties" class="anchor-navigation-ex-anchor" href="#getallproperties"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-getAllProperties-name">getAllProperties()</a></h3>
+<h3 id="setallproperties"><a name="setallproperties" class="anchor-navigation-ex-anchor" href="#setallproperties"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-setAllProperties-name">setAllProperties()</a></h3>
+<h3 id="async-function-getallproperties"><a name="async-function-getallproperties" class="anchor-navigation-ex-anchor" href="#async-function-getallproperties"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-getAllProperties-name"><code>async function getAllProperties</code></span></h3>
+<h4 id="arguments_9"><a name="arguments_9" class="anchor-navigation-ex-anchor" href="#arguments_9"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name(string):An SNS name
+</code></pre><h4 id="returns_9"><a name="returns_9" class="anchor-navigation-ex-anchor" href="#returns_9"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>properties(string):Strings spliced with &apos;+&apos; (e.g:+xxx+yyy+zz+++aaa+b+)
+</code></pre><h4 id="example_10"><a name="example_10" class="anchor-navigation-ex-anchor" href="#example_10"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> record = <span class="hljs-keyword">await</span> snsResolver.getAllProperties(name)
+<span class="hljs-comment">// +xxx+yyy+zzz+++sss+aaaa</span>
+</code></pre>
+<h3 id="async-function-setallproperties"><a name="async-function-setallproperties" class="anchor-navigation-ex-anchor" href="#async-function-setallproperties"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-setAllProperties-name"><code>async function setAllProperties</code></span></h3>
+<h4 id="arguments_10"><a name="arguments_10" class="anchor-navigation-ex-anchor" href="#arguments_10"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Arguments</strong></h4>
+<pre><code>name(string):An SNS name
+records:(string):Strings spliced with &apos;+&apos; (e.g:+xxx+yyy+zz+++aaa+b+)
+</code></pre><h4 id="returns_10"><a name="returns_10" class="anchor-navigation-ex-anchor" href="#returns_10"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<h4 id="transactionmsgobject-transcation-response-object_2"><a name="transactionmsgobject-transcation-response-object_2" class="anchor-navigation-ex-anchor" href="#transactionmsgobject-transcation-response-object_2"><i class="fa fa-link" aria-hidden="true"></i></a>transactionMsg(object): <a href="#transaction-response-object">Transcation response object</a></h4>
+<h4 id="example_11"><a name="example_11" class="anchor-navigation-ex-anchor" href="#example_11"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">&apos;sns.key&apos;</span>
+<span class="hljs-keyword">const</span> recordStr = <span class="hljs-string">&apos;+xxx+yyy+zzz+++sss+aaaa&apos;</span>
+<span class="hljs-keyword">const</span> transactionTx = <span class="hljs-keyword">await</span> snsResolver.setAllProperties(name, recordStr)
+</code></pre>
+<h2 id="withdraw-api"><a name="withdraw-api" class="anchor-navigation-ex-anchor" href="#withdraw-api"><i class="fa fa-link" aria-hidden="true"></i></a><span id="Withdraw"> Withdraw API</span></h2>
+<hr>
+<h3 id="getfeevalue"><a name="getfeevalue" class="anchor-navigation-ex-anchor" href="#getfeevalue"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-getFeeValue">getFeeValue()</a></h3>
+<h3 id="withdraw_1"><a name="withdraw_1" class="anchor-navigation-ex-anchor" href="#withdraw_1"><i class="fa fa-link" aria-hidden="true"></i></a><a href="#async-function-withdraw">withdraw()</a></h3>
+<h3 id="async-function-getfeevalue"><a name="async-function-getfeevalue" class="anchor-navigation-ex-anchor" href="#async-function-getfeevalue"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-getFeeValue"><code>async function getFeeValue</code></span></h3>
+<h4 id="returns_11"><a name="returns_11" class="anchor-navigation-ex-anchor" href="#returns_11"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<pre><code>fee(number):User can withdraw balance
+</code></pre><h4 id="example_12"><a name="example_12" class="anchor-navigation-ex-anchor" href="#example_12"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> fee = snsWithdraw.getFeeValue()
+</code></pre>
+<h3 id="async-function-withdraw"><a name="async-function-withdraw" class="anchor-navigation-ex-anchor" href="#async-function-withdraw"><i class="fa fa-link" aria-hidden="true"></i></a><span id="async-function-withdraw"><code>async function withdraw</code></span></h3>
+<h4 id="returns_12"><a name="returns_12" class="anchor-navigation-ex-anchor" href="#returns_12"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Returns</strong></h4>
+<h4 id="transactionmsgobject-transcation-response-object_3"><a name="transactionmsgobject-transcation-response-object_3" class="anchor-navigation-ex-anchor" href="#transactionmsgobject-transcation-response-object_3"><i class="fa fa-link" aria-hidden="true"></i></a>transactionMsg(object): <a href="#transaction-response-object">Transcation response object</a></h4>
+<h4 id="example_13"><a name="example_13" class="anchor-navigation-ex-anchor" href="#example_13"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Example</strong></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> transcationTx = <span class="hljs-keyword">await</span> snsWithdraw.withdraw()
+</code></pre>
+<h2 id="transaction-response"><a name="transaction-response" class="anchor-navigation-ex-anchor" href="#transaction-response"><i class="fa fa-link" aria-hidden="true"></i></a><span id="transaction-response-object">Transaction Response</span></h2>
+<hr>
+<p>The transaction response object gets returned by the promise of all state modifying functions of the library. The most important properties is the <code>wait</code>function which can be called by the initial response, before the transaction has been mined. You can await this promise and it will give you the transaction receipt. The transaction receipt, is the same as the transaction response object, except is has a <code>blockHash</code>,<code>blockNumber</code> and <code>timestamp</code> of the block the transaction has been included in.</p>
+<pre><code class="lang-js">{
+    <span class="hljs-comment">// Only available for unmined transactions</span>
+    wait: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{}, <span class="hljs-comment">//this function is to wait for the transaction to be mined</span>
+    <span class="hljs-comment">// Only available for mined transactions</span>
+    blockHash: <span class="hljs-string">&quot;0x7f20ef60e9f91896b7ebb0962a18b8defb5e9074e62e1b6cde992648fe78794b&quot;</span>,
+    blockNumber: <span class="hljs-number">3346463</span>,
+
+    <span class="hljs-comment">// Exactly one of these will be present (send vs. deploy contract)</span>
+    <span class="hljs-comment">// They will always be a properly formatted checksum address</span>
+    creates: <span class="hljs-literal">null</span>,
+    to: <span class="hljs-string">&quot;0xc149Be1bcDFa69a94384b46A1F91350E5f81c1AB&quot;</span>,
+
+    <span class="hljs-comment">// The transaction hash</span>
+    hash: <span class="hljs-string">&quot;0xf517872f3c466c2e1520e35ad943d833fdca5a6739cfea9e686c4c1b3ab1022e&quot;</span>,
+
+    <span class="hljs-comment">// See above &quot;Transaction Requests&quot; for details</span>
+    data: <span class="hljs-string">&quot;0x&quot;</span>,
+    <span class="hljs-keyword">from</span>: <span class="hljs-string">&quot;0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8&quot;</span>,
+    gasLimit: utils.bigNumberify(<span class="hljs-string">&quot;90000&quot;</span>),
+    gasPrice: utils.bigNumberify(<span class="hljs-string">&quot;21488430592&quot;</span>),
+    value: utils.parseEther(<span class="hljs-number">1.0017071732629267</span>),
+
+    <span class="hljs-comment">// The chain ID; 0 indicates replay-attack vulnerable</span>
+    <span class="hljs-comment">// (eg. 1 = Homestead mainnet, 3 = Ropsten testnet)</span>
+    chainId: <span class="hljs-number">1</span>,
+
+    <span class="hljs-comment">// The signature of the transaction (TestRPC may fail to include these)</span>
+    r: <span class="hljs-string">&quot;0x5b13ef45ce3faf69d1f40f9d15b0070cc9e2c92f3df79ad46d5b3226d7f3d1e8&quot;</span>,
+    s: <span class="hljs-string">&quot;0x535236e497c59e3fba93b78e124305c7c9b20db0f8531b015066725e4bb31de6&quot;</span>,
+    v: <span class="hljs-number">37</span>,
+
+    <span class="hljs-comment">// The raw transaction (TestRPC may be missing this)</span>
+    raw: <span class="hljs-string">&quot;0xf87083154262850500cf6e0083015f9094c149be1bcdfa69a94384b46a1f913&quot;</span> +
+           <span class="hljs-string">&quot;50e5f81c1ab880de6c75de74c236c8025a05b13ef45ce3faf69d1f40f9d15b0&quot;</span> +
+           <span class="hljs-string">&quot;070cc9e2c92f3df79ad46d5b3226d7f3d1e8a0535236e497c59e3fba93b78e1&quot;</span> +
+           <span class="hljs-string">&quot;24305c7c9b20db0f8531b015066725e4bb31de6&quot;</span>,
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../AboutSNS/registerTutorial.html" class="navigation navigation-next " aria-label="Next page: Registration Tutorial">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"API Documentation","level":"2.1","depth":1,"next":{"title":"Registration Tutorial","level":"3.1","depth":1,"path":"AboutSNS/registerTutorial.md","ref":"AboutSNS/registerTutorial.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","livereload","hide-element","search-pro","expandable-chapters","chapter-fold","sectionx","splitter","lightbox","copy-code-button","anchor-navigation-ex","favicon","insert-logo","sharing-plus","github","my-toolbar"],"styles":{"website":"./assets/css/websiteStyle.css"},"pluginsConfig":{"chapter-fold":{},"github":{"url":"https://github.com/Link-Key"},"livereload":{},"splitter":{},"search-pro":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"showLevel":false,"showGoTop":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"multipleH3":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"favicon":{"shortcut":"assets/img/favicon.ico"},"lightbox":{"jquery":true,"sameUuid":false},"my-toolbar":{"buttons":[{"label":"sns-app","text":"SNS-APP","icon":"fa","url":"https://sns.chat/"},{"label":"linkkey","text":"Linkkey","icon":"fa","url":"https://www.linkkey.io/"},{"label":"twitter","text":" ","icon":"fa fa-twitter","url":"https://twitter.com/LinkkeyOfficial"},{"label":"telegram","text":" ","icon":"fa fa-paper-plane","url":"https://t.me/linkkeydao"}]},"copy-code-button":{},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"max-height: 60px; min-height: 60px; border-radius:16px;box-shadow: 0 6px 12px rgb(0 0 0 / 18%);","url":"https://i.ibb.co/zN4mpnG/linkkey-logo.png"},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Linkkey Documentation","gitbook":"*","description":"Reusable functions and components for the SNS apps "},"file":{"path":"API_Documentation/README.md","mtime":"2022-03-31T08:38:29.001Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-02T02:59:04.048Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-my-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
