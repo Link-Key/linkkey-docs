@@ -1,4 +1,4 @@
-# Reusable functions and components for the SNS apps
+# Reusable functions and components for the SNS
 
 Most functions in this library are async functions and therefore return promises which can be awaited or chained with `.then`.
 

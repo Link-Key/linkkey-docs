@@ -1,4 +1,4 @@
-# FAQ
+# FAQ·SNS
 
 ## What is the logic of token (KEY) allocation for SNS domains?
 

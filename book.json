@@ -1,6 +1,6 @@
 {
-    "title": "Linkkey Documentation",
-    "description": "Reusable functions and components for the SNS apps ",
+    "title": "Linkkey Docs",
+    "description": "Linkkey product and technical documentation",
     "plugins": [
         "-sharing",
         "livereload",
@@ -46,12 +46,6 @@
         },
         "my-toolbar": {
             "buttons": [
-                {
-                    "label":"sns-app",
-                    "text": "SNS-APP",
-                    "icon": "fa",
-                    "url": "https://sns.chat/"
-                },
                 {
                     "label":"linkkey",
                     "text": "Linkkey",
