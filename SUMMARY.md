@@ -8,6 +8,7 @@
 * [Market](AboutLinkkey/Market.md)
 * [Profile](AboutLinkkey/Profile.md)
 * [Chat](AboutLinkkey/Chat.md)
+* [Circle](AboutLinkkey/Circle.md)
 
 ## About SNS
 
