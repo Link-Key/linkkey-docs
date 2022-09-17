@@ -1,5 +1,7 @@
 # About Circle
 
+**Comming soon!**
+
 Based on Follow-NFT and Group-NFT, we will introduce the function of Social Circle.
 
 Social Circle is a kind of social interaction circle between specific people (who hold your exclusive NFT), you can post articles to share your thoughts, and people who hold your NFT can see your post and comment and like and repost it. You can pass your NFT to others who will enter your social circle, or you can put your NFT for sale on the trading market, and those who buy your NFT will become part of your social circle.
