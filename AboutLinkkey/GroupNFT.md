@@ -1,6 +1,6 @@
 # Group-NFT
 
-Group-NFT is a social supplement to Friend-NFT, we have 1v1 social needs, but also a group of like-minded people for group social needs, so we also launched the Group section, for up to 1500 people to build a large social circle.
+Group-NFT is a social supplement to Follow-NFT, we have 1v1 social needs, but also a group of like-minded people for group social needs, so we also launched the Group section, for up to 1500 people to build a large social circle.
 
 
 

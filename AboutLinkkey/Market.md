@@ -1,6 +1,6 @@
 # About Market
 
-Market is located in the dedicated NFT market, can be traded Friend-NFT and Group-NFT, subsequent versions will support the transaction of SNS domain names.
+Market is located in the dedicated NFT market, can be traded Follow-NFT and Group-NFT, subsequent versions will support the transaction of SNS domain names.
 
 
 
@@ -20,7 +20,7 @@ Support setting royalty fee.
 
 1. Issuance service fee will be charged when issuing contracts:
 
-    - 100 key for issuing Friend-NFT
+    - 100 key for issuing Follow-NFT
 
     - 500 key for issuing Group-NFT
 
@@ -28,7 +28,7 @@ Support setting royalty fee.
 
 ## Royalty fee
 
-The issuer of Friend/Group NFT can set a royalty fee of 0-10%, which can be extracted from the secondary flow of subsequent NFTs.
+The issuer of Follow/Group NFT can set a royalty fee of 0-10%, which can be extracted from the secondary flow of subsequent NFTs.
 
 Royalty income is transferred directly to the publisher's account through the contract.
 

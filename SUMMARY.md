@@ -3,7 +3,7 @@
 
 ## ABOUT LINKKEY
 * [Introduction](README.md)
-* [FriendNFT](AboutLinkkey/FriendNFT.md)
+* [FollowNFT](AboutLinkkey/FollowNFT.md)
 * [GroupNFT](AboutLinkkey/GroupNFT.md)
 * [Market](AboutLinkkey/Market.md)
 * [Profile](AboutLinkkey/Profile.md)

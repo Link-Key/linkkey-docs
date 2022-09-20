@@ -16,9 +16,9 @@ Function:
 
 - v1.0 supports text communication, v1.1 supports picture and emoticon formats, v1.2 supports voice calls
 
-- Buy Friend-NFT to automatically become friends and start chatting
+- Buy Follow-NFT to automatically become friends and start chatting
 
-- Chat cannot be created without Friend-NFT relationship between two parties
+- Chat cannot be created without Follow-NFT relationship between two parties
 
 ## Group Chat
 

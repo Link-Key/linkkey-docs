@@ -1,8 +1,8 @@
-# About Friend-NFT
+# About Follow-NFT
 
-Friends-NFT is the basis for building Web3 social circle, we will define friends relationship based on blockchain's NFT holding status, and friends can conduct encrypted chat (based on XMTP protocol), post articles (based on Lens Protocol protocol) and other behaviors between friends.
+Follow-NFT is the basis for building Web3 social circle, we will define friends relationship based on blockchain's NFT holding status, and friends can conduct encrypted chat (based on XMTP protocol), post articles (based on Lens Protocol protocol) and other behaviors between friends.
 
-Friend-NFT is a financial exploration of the Web3 social circle, where we price the relationships and can trade them freely. This makes relationships in Web3 social circles valuable, and users will be more active in participating and maintaining social relationships, which ultimately makes social circles more meaningful and thus retains Web3 users.
+Follow-NFT is a financial exploration of the Web3 social circle, where we price the relationships and can trade them freely. This makes relationships in Web3 social circles valuable, and users will be more active in participating and maintaining social relationships, which ultimately makes social circles more meaningful and thus retains Web3 users.
 
 In fact, the social giants in the traditional Web2 domain are already experimenting with private circle socialization, specifically such as Twitter circle (https://help.twitter.com/en/using-twitter/twitter-circle).
 
@@ -12,7 +12,7 @@ We have the advantage of a native Web3 social circle developed on the blockchain
 
 
 
-The prerequisite for issuing Friends-NFT (hereinafter referred to as FNFT) is: having an SNS domain name and completing Twitter identity verification.
+The prerequisite for issuing Follow-NFT (hereinafter referred to as FNFT) is: having an SNS domain name and completing Twitter identity verification.
 
 
 
