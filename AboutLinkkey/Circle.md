@@ -1,4 +1,4 @@
-# About Circle
+# Circle
 
 **Comming soon!**
 

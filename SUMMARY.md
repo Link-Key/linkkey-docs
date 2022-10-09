@@ -7,7 +7,7 @@
 * [GroupNFT](AboutLinkkey/GroupNFT.md)
 * [Market](AboutLinkkey/Market.md)
 * [Profile](AboutLinkkey/Profile.md)
-* [Chat](AboutLinkkey/Chat.md)
+* [Chat(XMTP)](AboutLinkkey/Chat.md)
 * [Circle](AboutLinkkey/Circle.md)
 
 ## About SNS

@@ -1,4 +1,4 @@
-# About Chat
+# Chat
 
 Chat is an important function of Linkkey to realize Web3 social circle.
 

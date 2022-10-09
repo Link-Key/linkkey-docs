@@ -1,4 +1,4 @@
-# About Profile
+# Profile
 
 Profile is the base object of Linkkey protocol, which is a contract on Polygon chain and constitutes a relationship mapping with SNS NFT, which is the Web3 DID we built and mainly serves the social circle scenario.
 

@@ -1,4 +1,4 @@
-# About Follow-NFT
+# Follow-NFT
 
 Follow-NFT is the basis for building Web3 social circle, we will define friends relationship based on blockchain's NFT holding status, and friends can conduct encrypted chat (based on XMTP protocol), post articles (based on Lens Protocol protocol) and other behaviors between friends.
 

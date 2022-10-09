@@ -1,4 +1,4 @@
-# About Market
+# Market
 
 Market is located in the dedicated NFT market, can be traded Follow-NFT and Group-NFT, subsequent versions will support the transaction of SNS domain names.
 

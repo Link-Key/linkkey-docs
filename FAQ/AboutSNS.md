@@ -1,5 +1,6 @@
 # FAQ·SNS
 
+
 ## What is the logic of token (KEY) allocation for SNS domains?
 
 The domain name allocation token (KEY) logic is always allocated to the current holder address of the domain name for bookkeeping purposes. When a domain name is traded, access to the KEY is also transferred to the new holder address. However, the credited KEY will not be transferred to the new holder address, but will still be assigned to the original holder.
