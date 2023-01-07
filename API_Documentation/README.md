@@ -1,5 +1,7 @@
 # Reusable functions and components for the SNS
 
+> npm package link: https://www.npmjs.com/package/sns-app-contract-api
+
 Most functions in this library are async functions and therefore return promises which can be awaited or chained with `.then`.
 
 ## Contracts
