@@ -14,3 +14,4 @@ Opensea, Rarible and other NFT trading platforms all display domain name informa
 Opensea, Rarible and other NFT trading platforms are to display domain name information by reading the metadata of SNS domain names on IPFS, but IPFS reading is a heavy work for the trading market, because every day there is a large amount of IPFS metadata to be read and stored in the database of the trading market, so after registering a domain name, the domain name information on Opensea is probably unable to display it. The solution is simple, you just need to click Refresh on the NFT details page in Opensea, and the NFT information will be loaded in about a few minutes.
 
 
+## 

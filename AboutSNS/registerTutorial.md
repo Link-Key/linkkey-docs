@@ -21,14 +21,19 @@ Currently 3-digit registration does not support invitation, we will add the invi
 Currently supporting multi-currency registrations, including Matic/KEY/USDC/LOWB, their pricing strategy is as follows:
 
 - 10 Matic (for every 100 new registrations, the price increases by 0.3 Matic)
-- 15 KEY
+- ~~15 KEY (Temporarily closed)~~
 - 8 USDC (price increase of 0.25 USDC for every 100 new registrations)
-- 400000 Lowb
+- ~~400000 Lowb(Temporarily closed)~~
 
 Currently, the registration prices for each currency are as follows: 
 ![Current Pricing](../assets/img/cueernt_price.png)
 
 
-### Invitation mechanism
+## Invitation to Rebate
 
 After becoming an invitee, if a new user uses your domain name as the invitation code for registration, you will get 10% registration fee share, which is directly split through the contract, while new users can enjoy 10% registration discount.
+
+Invitation rebate mechanism supports 3-digit and above domain name registration
+
+## Weekly Discount
+Every week on Thu and Fri (0:00-24:00 UTC), all domain registration fees are 50% off, stackable with invite offer
