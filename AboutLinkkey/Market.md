@@ -4,7 +4,7 @@ Market is located in the dedicated NFT market, can be traded Follow-NFT and Grou
 
 
 
-Support for NFT transactions with KEY, subsequent versions will support USDC, Matic.
+Support using KEY tokens to trade NFT, and will support Matic and USDC in the future.
 
 
 

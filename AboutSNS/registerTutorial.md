@@ -1,20 +1,22 @@
 # About SNS Register
+> Updated on 2023.3.23
 
 ## 3-digit registration
 
 ### Pricing
 Currently two tokens are supported, Matic and KEY, with the following pricing:
 - 200 Matic
-- 300 KEY
+- ~~300 KEY~~
 
 > 3-digit registration did not implement the logic of price increase
 
 ### Invitation mechanism
 
-Currently 3-digit registration does not support invitation, we will add the invitation mechanism in the next version
+~~Currently 3-digit registration does not support invitation, we will add the invitation mechanism in the next version~~
 
+Currently 3-digit registration is supported by invitation
 
-## 4-digit and above registration
+## 4-7 digit registration
 
 ### Pricing
 
@@ -28,6 +30,8 @@ Currently supporting multi-currency registrations, including Matic/KEY/USDC/LOWB
 Currently, the registration prices for each currency are as follows: 
 ![Current Pricing](../assets/img/cueernt_price.png)
 
+## 7+ digit registration
+![img.png](../assets/img/pricing.png)
 
 ## Invitation to Rebate
 
@@ -36,4 +40,4 @@ After becoming an invitee, if a new user uses your domain name as the invitation
 Invitation rebate mechanism supports 3-digit and above domain name registration
 
 ## Weekly Discount
-Every week on Thu and Fri (0:00-24:00 UTC), all domain registration fees are 50% off, stackable with invite offer
+~~Every week on Thu and Fri (0:00-24:00 UTC), all domain registration fees are 50% off, stackable with invite offer~~
